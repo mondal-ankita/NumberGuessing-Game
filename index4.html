@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Guess The Correct Number </h1>
+        <p class="ank">Here you will try to Guess a random number between 1 to 100</p>
+        <p class="ank">You must guess the correct number within 10 attempts.</p>
+        </br>
+        <form>
+            <label for="guessfield" id="guess">Guess any random number :-</label>
+            <input type="text" id="guessfield" class="guessfield"></br>
+            <input type="submit" id="subt" value="Submit the Gussed No" class="GuessSubmit">
+        </form>
+
+        <div class="you">
+            <p>Some Previous guesses:- <span class="guesses"></span></p>
+            <p>Remaining Guesses:- <span class="lastResult">10</span></p>
+            <p class="low"></p>
+        </div>
+    </div>
+</body>
+<script src="proj4.js"></script>
+</html>
